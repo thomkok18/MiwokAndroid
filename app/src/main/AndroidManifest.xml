@@ -15,6 +15,13 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <activity android:name=".NumbersActivity" />
+        <activity android:name=".PhrasesActivity" />
+        <activity android:name=".FamilyActivity" />
+        <activity
+            android:name=".ColorsActivity"
+            android:label="@string/title_activity_colors"
+            android:theme="@style/AppTheme.NoActionBar"></activity>
     </application>
 
 </manifest>
