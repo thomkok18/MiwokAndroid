@@ -3,8 +3,8 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:orientation="horizontal"
     android:minHeight="@dimen/list_item_height"
+    android:orientation="horizontal"
     tools:context="com.example.android.miwok.NumbersActivity">
 
     <ImageView
@@ -12,6 +12,7 @@
         style="@style/ImageStyle" />
 
     <LinearLayout
+        android:id="@+id/text_container"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:gravity="center_vertical"

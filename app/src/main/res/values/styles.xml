@@ -9,7 +9,7 @@
     <!-- Style for a category of vocabulary words -->
     <style name="CategoryStyle">
         <item name="android:layout_width">match_parent</item>
-        <item name="android:layout_height">88dp</item>
+        <item name="android:layout_height">@dimen/list_item_height</item>
         <item name="android:gravity">center_vertical</item>
         <item name="android:paddingLeft">16dp</item>
         <item name="android:textColor">@color/text_color</item>
@@ -20,9 +20,8 @@
     <!-- Style for images -->
     <style name="ImageStyle">
         <item name="android:background">@color/tan_background</item>
-        <item name="android:layout_marginRight">16dp</item>
-        <item name="android:layout_width">88dp</item>
-        <item name="android:layout_height">88dp</item>
+        <item name="android:layout_width">@dimen/list_item_height</item>
+        <item name="android:layout_height">@dimen/list_item_height</item>
     </style>
 
     <style name="AppTheme.NoActionBar">
