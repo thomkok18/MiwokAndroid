@@ -13,7 +13,7 @@ import android.widget.TextView;
 import java.util.ArrayList;
 
 public class WordAdapter extends ArrayAdapter<Word> {
-    private  int mColorRecourceId;
+    private int mColorRecourceId;
 
     public WordAdapter(Activity context, ArrayList<Word> words) {
         super(context, 0, words);
