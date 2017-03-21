@@ -2,7 +2,6 @@ package com.example.android.miwok;
 
 import android.app.Activity;
 import android.content.Context;
-import android.media.MediaPlayer;
 import android.support.v4.content.ContextCompat;
 import android.view.LayoutInflater;
 import android.view.View;
